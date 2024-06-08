@@ -1,0 +1,269 @@
+
+*{
+  padding: 0%;
+  margin: 0%;
+ 
+}
+
+header{
+    width: 100%;
+    height:100%;
+}
+
+nav{
+    width: 100%;
+    height: 20%;   
+    box-shadow: 2px 0px 5px grey;
+    display:inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:black;
+    
+}
+.menu a{
+        
+        text-decoration: none;
+        font-size: 15px;
+        color:white;
+        padding:10px 40px;
+        margin:8px;
+        font-weight: bold;
+        letter-spacing: 0.1rem;
+        font-style: italic;
+       
+}
+
+
+.login{
+    font-size: 20px;    
+}
+.card {
+   
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    
+    
+   
+  }
+  
+.box{
+  background-color: rgb(123, 79, 79);
+ 
+}
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    transition: 0.5s;
+    font-size: 8px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  
+  .container11{
+    display:flex;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    align-items: center;
+    transform-style: preserve-3d;
+    max-height: 500px;
+    margin-top: 0%;  
+    background-color: black;
+    text-align: center;
+    
+  }
+
+  .left11{
+    align-content: center;
+    margin-right: 100px;
+    width: 40%;
+    margin-bottom: 50px;   
+    
+  }
+
+  .left11 h2{
+    font-style: italic;
+    color: orange;
+  }
+
+  .left11 button{
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    cursor: pointer;
+    width: 30%;  
+    font-size: 8px;
+  }
+
+  .left11 h1{
+    font-size: 100px;
+    text-shadow: 5px 5px 20px white;
+   
+  } 
+
+  .right11{
+    flex-basis: 50%;
+      height: 100%;
+      width: 60%;
+      
+      margin-right: 10px;
+         
+  }
+
+
+ .title{
+  font-size: 60px;
+  background-color:white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+  .page{
+    display:flex;
+    align-items: center;
+    transform-style: preserve-3d;
+    perspective: 4000px;
+    background-color:white;
+    max-height: fit-content;
+    margin-bottom: 5%;
+    align-items: center;
+    height: 60%;
+
+    
+  }
+  .leftpage{
+    flex-basis: 40%;
+    max-width: 333px;
+    font-weight: bold; 
+    padding: 10px;
+    box-shadow: 5px 5px 20px black;
+    margin-left: 20px;  
+    background-color: white;
+    transition: 1s;
+
+    
+   }
+
+   .leftpage:hover{
+    transform: scale(1.1);
+   }
+  
+   .middelpage{
+    flex-basis: 40%;
+    max-width: 333px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    box-shadow: 5px 5px 20px black;
+    background-color: white;
+    transition: 1s;
+   }
+
+   .middelpage:hover{
+    transform: scale(1.1);
+   }
+   .rightpage{
+    align-items: center;
+    flex-basis: 40%;
+    max-width: 333px;
+    padding: 10px;   
+    margin-right: 20px;
+     box-shadow: 5px 5px 20px black;
+    background-color: white;
+    transition: 1s;
+    
+   }
+
+   .rightpage:hover{
+    transform: scale(1.1);
+   }
+    
+
+ .page1{
+  display:flex;
+  height: 60%;
+  margin-top: 0%;
+  align-items: center;
+  transform-style: preserve-3d;
+  perspective: 4000px;
+  background-color:white;
+  max-height: fit-content;
+  align-items: center;
+  margin-bottom: 2%;
+  border-radius: 50px;
+
+}
+
+ .leftpage1{
+  flex-basis: 40%;
+  max-width: 333px;
+  font-weight: bold; 
+  padding: 10px;
+  margin-left: 20px;
+  box-shadow: 5px 5px 20px black;
+  background-color: white;
+  transition: 1s;
+ }
+
+ .leftpage1:hover{
+  transform: scale(1.1);
+ }
+
+ .middelpage1{
+  flex-basis: 40%;
+  max-width: 333px;
+  font-weight: bold;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
+  box-shadow: 5px 5px 20px black;
+  background-color:white;
+  transition: 1s;
+ }
+
+ .middelpage1:hover{
+  transform: scale(1.1);
+ }
+
+
+ .rightpage1{
+  align-items: center;
+  flex-basis: 40%;
+  max-width: 333px;
+  margin-right: 20px;
+  padding: 10px;
+  box-shadow: 5px 5px 20px black;
+  background-color: white;
+  transition: 1s;
+ }
+
+ .rightpage1:hover{
+  transform: scale(1.1);
+ }
+
+
+
+
+ 
+  
+
+
+ 

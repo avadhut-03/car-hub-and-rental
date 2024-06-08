@@ -1,0 +1,11 @@
+.html{
+     scroll-behavior: smooth;
+     scroll-padding:10rem ;
+}
+
+.service1{
+     font-size: large;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     margin-left: 5%;
+     
+}

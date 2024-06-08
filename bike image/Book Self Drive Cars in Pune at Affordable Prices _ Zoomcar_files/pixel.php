@@ -1,0 +1,1 @@
+var appPixel={parse:function(){}};
